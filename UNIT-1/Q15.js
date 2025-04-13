@@ -13,7 +13,7 @@ for(let index=0;index<students.length;index++){
         sum+=curValue;
         return sum;
     },0)/marks.length;
-
+    
     if(highest.averageMarks < averageMarks){
         highest.averageMarks = averageMarks;
         highest.name = student.name;
